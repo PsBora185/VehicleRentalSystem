@@ -16,7 +16,7 @@ abstract class Vehicle {
     private int year;
     private FuelType fuelType;
     private boolean rented;
-    private int counter = 5;
+    private int counter = 5; // for temporary id generation
 
     public Vehicle() {
     }
